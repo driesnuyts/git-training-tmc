@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.tmc_git.job</groupId>
-  <artifactId>job2</artifactId>
+  <artifactId>RemoteEngines_Video_Viewers_Watch</artifactId>
   <version>0.1.0</version>
-  <name>TMC_GIT job2-0.1.0 (0.1,Job Designs)</name>
+  <name>TMC_GIT RemoteEngines_Video_Viewers_Watch-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,7 +24,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TMC_GIT</talend.project.name>
     <talend.product.version>7.3.1.20201125_1449-patch</talend.product.version>
-    <talend.job.finalName>job2_0_1</talend.job.finalName>
+    <talend.job.finalName>remoteengines_video_viewers_watch_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.tmc_git.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.tmc_git.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,8 +33,8 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>job2</talend.job.name>
-    <talend.job.id>_WZJVoHTkEeumzOso3ijIeQ</talend.job.id>
+    <talend.job.name>RemoteEngines_Video_Viewers_Watch</talend.job.name>
+    <talend.job.id>_Zr8ogFkREei8HMEx_QibGA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder></talend.job.folder>
     <talend.job.framework></talend.job.framework>
@@ -46,11 +46,6 @@
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
       <version>1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>activation</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -118,11 +113,6 @@
       <version>1.16.1</version>
     </dependency>
     <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
-      <version>1.4.7</version>
-    </dependency>
-    <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>org.talend.dataquality.parser</artifactId>
       <version>7.3.1</version>
@@ -136,6 +126,11 @@
       <groupId>org.talend.components.lib</groupId>
       <artifactId>talend_file_enhanced</artifactId>
       <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.tmc_git.code</groupId>
